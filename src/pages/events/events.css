@@ -1,0 +1,187 @@
+.EventList {
+    flex: 4;
+    
+  }
+  
+  .EventListevent {
+    display: flex;
+    align-items: center;
+  }
+  
+  .EventListImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .EventListEdit{
+      border: none;
+      border-radius: 10px;
+      padding: 5px 10px;
+      background-color: #3bb077;
+      color: white;
+      cursor: pointer;
+      margin-right: 20px;
+  }
+  
+  .EventListDelete{
+      color: red;
+      cursor: pointer;
+  }
+
+  .event {
+    flex: 4;
+    padding: 20px;
+  }
+  
+  .eventTitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .eventAddButton {
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .eventContainer {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .eventShow {
+    flex: 1;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  }
+  
+  .eventUpdate {
+    flex: 2;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    margin-left: 20px;
+  }
+  
+  .eventShowTop {
+    display: flex;
+    align-items: center;
+  }
+  
+  .eventShowImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .eventShowTopTitle {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  
+  .eventShoweventname {
+    font-weight: 600;
+  }
+  
+  .eventShoweventTitle {
+    font-weight: 300;
+  }
+  
+  .eventShowBottom{
+      margin-top: 20px;
+  }
+  
+  .eventShowTitle {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(175, 170, 170);
+  }
+  
+  .eventShowInfo{
+      display: flex;
+      align-items: center;
+      margin: 20px 0px;
+      color: #444;
+  }
+  
+  .eventShowIcon{
+      font-size: 16px !important;
+  }
+  
+  .eventShowInfoTitle{
+      margin-left: 10px;
+  }
+  
+  .eventUpdateTitle{
+      font-size: 24px;
+      font-weight: 600;
+  }
+  
+  .eventUpdateForm{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+  }
+  
+  .eventUpdateItem{
+      display: flex;
+      flex-direction: column;
+      margin-top: 10px;
+  }
+  
+  .eventUpdateItem>label{
+      margin-bottom: 5px;
+      font-size: 14px;
+  }
+  
+  .eventUpdateInput{
+      border: none;
+      width: 250px;
+      height: 30px;
+      border-bottom: 1px solid gray;
+  }
+  
+  .eventUpdateRight{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+  }
+  
+  .eventUpdateUpload{
+      display: flex;
+      align-items: center;
+  }
+  
+  .eventUpdateImg{
+      width: 100px;
+      height: 100px;
+      border-radius: 10px;
+      object-fit: cover;
+      margin-right: 20px;
+  }
+  
+  .eventUpdateIcon{
+      cursor: pointer;
+  }
+  
+  .eventUpdateButton{
+      border-radius: 5px;
+      border: none;
+      padding: 5px;
+      cursor: pointer;
+      background-color: darkblue;
+      color: white;
+      font-weight: 600;
+  }
